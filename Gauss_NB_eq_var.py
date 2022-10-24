@@ -48,7 +48,7 @@ if show_fig:
                    colors=color, alpha=0.2)
         
     ax.set(xlim=xlim, ylim=ylim)
-    fig.savefig('gaussian-NB-Train_data.png')
+    fig.savefig('gaussian-NB-eq-Train_data.png')
 
 
 fig = plt.figure()
@@ -99,7 +99,7 @@ if show_fig:
     plt.plot([xval,xval],[ylim[0],ylim[1]], 'k-',lw=5)
     
     ax.set(xlim=xlim, ylim=ylim)
-    fig.savefig('gaussian-NB-Test_data.png')
+    fig.savefig('gaussian-NB-eq-Test_data.png')
     
     #%% curved Decision Boundary- NB boundary is quadratic
     # yprob = model.predict_proba(Xnew)
